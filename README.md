@@ -1,6 +1,8 @@
-ToyRobotCode
+## ToyRobotCode
+
 This project is a command line application that simulates a toy robot moving on a square tabletop, with a command interpreter that reads user input and executes commands on the robot.
 
+```codetype
 Directory Structure
 ├── ToyRobotCode.sln
 ├── ToyRobotCode.vcxproj
@@ -20,16 +22,16 @@ Directory Structure
     ├── unit_test.cpp
     └── Unit_Test/
 	   └── Unit_Test.vcxproj
-	
+```	
 
-Build Instructions
+**Build Instructions**<br>
 The project is built using Visual Studio Community Edition 2022. Open ToyRobotCode.sln in Visual Studio and build the project.
 
-Usage
+**Usage**<br>
 After building the project, run ToyRobotCode.exe from the build directory. The application reads commands from standard input and executes them on the robot.
 
-Tests
+**Tests**<br>
 The project includes an example unit test framework with few testcases. To run the tests and to see the results, run the Unit_Test.exe from the test directory in the command prompt.
 
-Note
+**Note**<br>
 Please note that this project has been designed to be compiled with the G++ compiler on a Linux system or with the Mingw environment on Windows. However, it has only been tested on the Windows platform using the Visual Studio Community Edition 2022. This project does not use any third-party libraries or frameworks.
