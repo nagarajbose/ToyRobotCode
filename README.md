@@ -28,7 +28,7 @@ Directory Structure
 The project is built using Visual Studio Community Edition 2022. Open ToyRobotCode.sln in Visual Studio and build the project.
 
 **Usage**<br>
-After building the project, run ToyRobotCode.exe from the build directory. The application reads commands from standard input and executes them on the robot.
+Run ToyRobotCode.exe from the build directory. The application reads commands from standard input, executes them and prints the report on standard output.
 
 **Tests**<br>
 The project includes an example unit test framework with few testcases. To run the tests and to see the results, run the Unit_Test.exe from the test directory in the command prompt.
