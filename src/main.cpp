@@ -20,8 +20,10 @@ int main() {
     // and pass the Robot object as a reference
     std::unique_ptr<CommandExecution> execution = std::make_unique<CommandExecution>(*robot);
 
+    std::cout << "Valid Commands : PLACE X,Y,F / MOVE / LEFT / RIGHT / REPORT" << std::endl;
+    std::cout << "Valid values   : X(0 to 4), Y(0 to 4), F(NORTH, SOUTH, EAST, WEST)" << std::endl;
     std::cout << "Please enter the commands..." << std::endl;
-
+  
     std::string line;
     while (std::getline(std::cin, line)) {
         try {

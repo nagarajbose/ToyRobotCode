@@ -66,5 +66,8 @@ int main() {
 
     std::cout << "All test cases passed!\n";
 
+    std::cout << "Press any key to exit...";
+    getchar();
+
     return 0;
 }

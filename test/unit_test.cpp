@@ -30,8 +30,12 @@ void test_robot_move() {
 int main() {
     test_robot_place();
     test_robot_move();
+    // More testcases to check other components can be added here
 
     std::cout << "All tests passed!" << std::endl;
+
+    std::cout << "Press any key to exit...";
+    getchar();
 
     return 0;
 }
